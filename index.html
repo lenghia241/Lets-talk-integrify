@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's Talk </title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="formTitle">
+        <h1>Let's talk</h1>
+        <p>Think you have what it takes? Show us</p>
+    </div>
+
+    <form>
+        <div class="section">
+            <h2>1. Personal Infomation</h2>
+
+            <hr>
+
+            <div class="flexContainer">
+                <div class="leftInfo">
+                    <input type="text" name="fullName" placeholder="Full name*">
+                    <input type="email" name="email" placeholder="Email*">
+                    <input type="email" name="email" placeholder="Re-enter email*">
+                </div>
+                <div class="rightInfo">
+                    <input type="phone" name="phone" placeholder="Phone*">
+                </div>
+            </div>
+
+
+            <input type="text" name="address" rows="3" placeholder="Address*">
+
+            <div class="flexContainer">
+
+                <input type="text" name="city" placeholder="City*" class="detail">
+                <input type="text" name="state" placeholder="State" class="detail">
+                <input type="text" name="country" placeholder="Country/Region*" class="detail">
+                <input type="text" name="zip" placeholder="Zip/Postal code" class="detail">
+
+            </div>
+
+            <input type="text" name="hear" placeholder="How did you hear about us">
+        </div>
+
+        <div class="section">
+            <h2>2. Skills and location</h2>
+
+            <hr>
+
+            <div>
+                <h3>Which is your primary design discipline?*</h3>
+                <div class="flexContainer">
+                    <input type="radio" name="field" id="design" value="design" checked="checked" hidden>
+                    <label for="design" class="radioButton">Design Research</label>
+
+                    <input type="radio" name="field" id="visual" value="visual" hidden>
+                    <label for="visual" class="radioButton">Visual Design</label>
+
+                    <input type="radio" name="field" id="ux" value="ux" hidden>
+                    <label for="ux" class="radioButton">UX Design</label>
+
+                    <input type="radio" name="field" id="frontend" value="frontend" hidden>
+                    <label for="frontend" class="radioButton">Front-end Dev</label>
+                </div>
+            </div>
+
+            <div class="flexContainer">
+
+                <div class="workSide">
+                    <h3>Do you have experience with any other disciplines?</h3>
+                    <label>
+                    <input type="checkbox" checked="checked" name="visual" id="VD" value="visual" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp;  Visual Design</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="ux" value="ux" id="UD" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; UX Design</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="frontend" value="frontend" id="FE" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Front-end Development</label>
+                </div>
+
+                <div class="workSide">
+                    <h3>Where are you interested in working?*</h3>
+                    <p>You must be legally authorized to work without visa sponsorship in the location(s) you choose.</p>
+                    <label>
+                    <input type="checkbox" checked="checked" name="austin" id="austin" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp;  Austin, Texas</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="newyork" id="newyork" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp;  New York, New York</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="toronto" id="toronto" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Toronto, Canada</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="shanghai" id="shanghai" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Shanghai, China</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="dublin" id="dublin" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Dublin, Ireland</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="hursley" id="hursley" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Hursley, United Kingdom</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="germany" id="germany" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Boenlingen, Germany</label>
+                    <br>
+                    <label>
+                    <input type="checkbox" name="else" id="else" hidden>
+                    <span class="checkmark"></span>
+                    &nbsp; Somewhere else</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>3. Portfolio</h2>
+            <hr>
+            <p>Prove you're IBM's next great designer by showing us who you are. What you've done. How you think. Tell us your
+                story.
+            </p>
+            <input type="text" name="portLink" placeholder="Portfolio link*">
+            <textarea name="anything" cols="30" rows="5" placeholder="Anything else(another link, availability, etc.)?"></textarea>
+        </div>
+
+        <button type="Submit" class="submitButton">Submit</button>
+    </form>
+
+</body>

@@ -1,0 +1,129 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 1rem 15rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #d4dbe3;
+    background-color: #454E57;
+}
+
+hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #1886a9;
+    border-width: 0.15rem;
+}
+
+/* Custom style */
+
+.formTitle {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-top: 3rem
+}
+
+/* personal infomation */
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+input[type="text"], input[type="email"], input[type="phone"], textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid grey 1px;
+    padding: 3px 10px;
+    color: #d4dbe3;
+    margin: 2rem 0;
+}
+
+div .rightInfo {
+    width: 23%;
+}
+
+div input.detail {
+    width: 23%;
+}
+
+.leftInfo {
+    width: 74%;
+}
+
+/* Skills and Location */
+
+/* radio button style */
+.radioButton {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem 7rem;
+    background-color: transparent;
+    border: 1px solid #d4dbe3;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .radioButton {
+    background-color: #00b2f4;
+    border: none;
+}
+
+/* checkbox style */
+.workSide {
+    width: 49%;
+}
+
+.flexContainer .workSide label {
+    cursor: pointer;
+}
+
+.checkmark {
+    display: inline-flex;
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: 1px solid #d4dbe3;
+    margin: 2rem 0;
+}
+
+
+input[type="checkbox"]:checked + span {
+    background-color: #00b2f4;
+}
+
+/* Text area */
+
+textarea {
+    border: solid grey 1px;
+}
+
+.submitButton {
+    padding: 1.5rem 5rem;
+    cursor: pointer;
+    background-color: #00b2f4;
+    border:none;
+    font-size: 2rem;
+    color: #d4dbe3;
+    font-weight: bold;
+}
